@@ -2,6 +2,9 @@
 
 I believe that the combination of [Lambda Island's Launchpad](https://github.com/lambdaisland/launchpad), [devenv.sh](https://devenv.sh), and Kaocha is a really sweet starting position for dev tooling in the Clojure land. However, I've not really seen anyone give any examples of it, so here's an example setup of how it might look for a basic hello world.
 
+# Demo
+[![asciicast](https://asciinema.org/a/rKZXVq4GnexlkOryGMJXM3lw8.svg)](https://asciinema.org/a/rKZXVq4GnexlkOryGMJXM3lw8)
+
 ## Installing nix
 Nix is a package manager that shines in creating reproducible builds. In this case, it can act a bit like Python's virtual environments but for everything you can ever want. The amount of packages that nix has supported is immense, and with nix flakes it's possible to build an environnment that you're certain will build the same for every person that will try to build it.
 
